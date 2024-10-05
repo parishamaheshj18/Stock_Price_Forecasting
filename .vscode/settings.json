@@ -1,0 +1,6 @@
+{
+    "python.dataScience.showPlotViewer": false,
+    "jupyter.inlinePlotting": true,
+    "jupyter.plotInlineBackend": "inline"
+  }
+  
