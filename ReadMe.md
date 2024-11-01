@@ -9,7 +9,7 @@ This project provides an in-depth comparison of **Gated Recurrent Unit (GRU)** a
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Results](#results)
-- [License](#license)
+
 
 ## Project Overview
 Recurrent neural networks like GRU and LSTM are well-suited to handling sequence data, making them popular choices for tasks such as time series forecasting, language modeling, and natural language processing. This project aims to:
@@ -29,3 +29,48 @@ The notebook includes code for data preprocessing, model training, and performan
 To install the necessary libraries, you can use the following command:
 ```bash
 pip install tensorflow numpy matplotlib pandas
+```
+## Installation
+
+
+1) Clone this repository:
+```bash
+git clone https://github.com/parishamaheshj18/Stock_Price_Forecasting.git
+```
+2) Navigate to the project directory:
+```bash
+cd Stock_Price_Forecasting
+```
+
+Install the required packages listed in the Requirements section if you haven't already.
+
+## Usage
+
+To explore the project and run the models:
+
+Open the Jupyter Notebook:
+```bash
+jupyter notebook GRU_LSTM.ipynb
+```
+
+- Follow along with the notebook to:
+- Preprocess your data.
+- Train both GRU and LSTM models.
+- Evaluate and compare model performance.
+## Project Structure
+
+```bash
+Stock_Price_Forecasting/
+│
+├── GRU_LSTM.ipynb       # Jupyter Notebook with implementation and results
+├── README.md            # Project README file
+└── data/                # (Optional) Folder for any sample datasets used in the notebook
+```
+## Results
+
+The notebook provides a detailed comparison between GRU and LSTM models, evaluating each based on:
+
+- Model accuracy and loss metrics over training and validation datasets.
+- Computational efficiency (e.g., training time and memory usage).
+- Visualizations of model performance to aid in interpreting the results.
+- The results section in the notebook also includes a discussion on when to prefer one model over the other based on the data characteristics and application requirements.
